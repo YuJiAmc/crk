@@ -1,0 +1,66 @@
+@import "./variables.scss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* base */
+a {
+  color: #333333;
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover,
+  &:active {
+    color: #0066cc;
+    // text-decoration: underline;
+  }
+}
+/* layout */
+html {
+  font-family: Helvetica, Arial, "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  color: #333333;
+}
+body {
+  min-width: 1200px;
+}
+
+.clearfix {
+  zoom: 1;
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+#app {
+  height: 100%;
+}
+#menu {
+  border: 0px;
+  .el-submenu,
+  .el-menu-item {
+    i {
+      color: #fff;
+    }
+  }
+  .el-submenu__icon-arrow {
+    display: none;
+  }
+}
