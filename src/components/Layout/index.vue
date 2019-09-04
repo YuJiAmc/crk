@@ -57,6 +57,7 @@
 
 <script>
 import route from "@/router.js";
+import path from "path";
 
 export default {
   data() {

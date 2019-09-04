@@ -108,8 +108,8 @@ export default new Router({
           meta: { title: "指定号码发送" }
         },
         {
-          path: "send-details",
-          name: "send-details",
+          path: "member-send-details",
+          name: "member-send-details",
           component: MemberMarketing.SendDetails,
           meta: { title: "发送明细" }
         },
