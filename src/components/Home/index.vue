@@ -46,6 +46,6 @@
 
 <style lang="scss">
 .home {
-  background-color: #aaa;
+  background-color: #ccc;
 }
 </style>

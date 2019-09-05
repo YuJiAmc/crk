@@ -113,12 +113,11 @@ export default {
       line-height: 50px;
       width: 150px;
       padding-right: 15px;
-      // background-color: #f39531;
-      background-color: #b1f3f8e0;
+      background-color: #f39531;
       text-align: center;
       span {
         font-size: 20px;
-        color: #b1f3f8e0;
+        color: #fff;
       }
     }
   }
